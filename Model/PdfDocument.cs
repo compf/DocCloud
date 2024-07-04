@@ -2,6 +2,6 @@ namespace DocCloud.Model
 {
     public class PdfDocument
     {
-        public List<PdfPage> Pages{get;}
+        public List<PdfPage> Pages{get;}=new();
     }
 }
