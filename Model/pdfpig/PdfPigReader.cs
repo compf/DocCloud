@@ -19,8 +19,7 @@ public class PdfPigReader : IPdfReader
                 text = OptimizeText(text);
 
                 var pdfPage = new PdfPage(i + 1, new TextOnlyPageContent(text));
-                Console.WriteLine(text);
-                throw new Exception("cool");
+                
                 doc.Pages.Add(pdfPage);
             }
         }

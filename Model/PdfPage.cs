@@ -7,4 +7,8 @@ public struct PdfPage{
         PageNr=page;
         Content=content;
     }
+    public override string ToString()
+    {
+        return Content.ToString();
+    }
 }
